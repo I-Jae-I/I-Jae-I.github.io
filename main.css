@@ -1,0 +1,430 @@
+/*Start global*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #eee;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url("images/re.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+	color: #eee;
+}
+
+p{
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+
+img{
+	width: 100%;
+}
+/*End global*/
+
+/*Start reusable*/
+.container{
+	width: 90%;
+	max-width: 120rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.section-heading{
+	text-align: center;
+	margin-top: 10rem;
+}
+/*End reusable*/
+
+/*Start header*/
+header{
+	width: 100%;
+	height: 10vh;
+}
+
+.top-nav{
+	width: 100%;
+	height: 10vh;
+	position: flex;
+	background-color: #28092F;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+	
+.nav-list{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li{
+	margin: 0 2rem;
+}
+
+.nav-link{
+	font-family: 'Vladimir Script', sans-serif;
+	font-size: 4rem;
+	padding: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+	background: linear-gradient(to top, #ffe838, #fd57bf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*End header*/
+
+/*Start about*/
+.about .container{
+	margin-top: 5rem;
+}
+
+.about .container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.about-heading {
+	font-size:6rem;
+	margin-top: -47rem;
+	opacity: .3;
+}
+
+.about-heading h1{
+	font-size:6rem;
+	opacity: .3;
+}
+
+.about-heading h5{
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.student-info h1{
+	color: transparent;
+}
+
+.git p{
+	margin-top: 1rem;
+}
+
+.profile-img{
+	margin-right: 2rem;
+}
+/*End about*/
+
+/*Start Interest in IT and the Future*/
+.interest-in-it-and-the-future{
+	margin-top: 55rem;
+}
+
+.about-heading{
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.about-heading h1{
+	font-weight: 300;
+	position: relative;
+}
+
+.Interest-in-IT{
+	margin-bottom: 4rem;
+}
+
+.interest{
+	margin-bottom: 2rem;
+}
+
+.rmit{
+	margin-bottom: 2rem;
+}
+
+.interest h1{
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+
+}
+
+.interest p{
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 300;
+
+}
+.rmit h1{
+	text-align: center;
+	margin-top: 5rem;
+	font-size: 2rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.rmit p{
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 300;
+}
+.degree h1{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 5rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.degree p{
+	margin-bottom: 8rem;
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 300;
+
+}
+
+.occcupation h1{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 4rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+
+}
+
+.occcupation h4{
+	text-align: left;
+	font-weight: 300;
+
+}
+
+.occcupation p{
+	margin-top: 3rem;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.poe h6{
+	margin-bottom: 55rem;
+	color: transparent;
+}
+
+
+/*End Interest in IT and the Future*/
+
+/*Start Personality*/
+
+.about-heading h1{
+	margin-top: 45rem;
+}
+
+.p0 h1{
+	margin-top: 0rem;
+	text-align: center;
+	font-size: 2.4rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.p0 h6{
+	text-align: center;
+	font-size: 1.1rem;
+	margin-top: -1rem;
+	font-weight: 300;
+}
+
+.p0 p{
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	font-weight: 300;
+}
+
+.q1{
+  float: left;
+  width: 52%;
+  padding: 5px;
+  padding-right: 2rem;
+
+}
+
+.p1 h1{
+	margin-top: 0rem;
+	text-align: center;
+	font-size: 2.4rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.p1 h6{
+	text-align: center;
+	font-size: 1.1rem;
+	margin-top: 5rem;
+	font-weight: 300;
+}
+
+.p1 p{
+	text-align: center;
+	margin-top: 0.2rem;
+	font-weight: 300;
+}
+
+.p2 h1{
+	text-align: center;
+	font-size: 2.4rem;
+	margin-top: 2rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.p2 p{
+	text-align: center;
+	margin-top: 0.2rem;
+	font-weight: ;
+}
+
+.p3 h1{
+	text-align: center;
+	font-size: 2.4rem;
+	margin-top: 2rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.p3 p{
+	text-align: center;
+	margin-top: 0.2rem;
+	font-weight: 300;
+}
+
+
+.p4 h1{
+	text-align: center;
+	font-size: 2.4rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.p4 h6{
+	text-align: center;
+	font-size: 1.1rem;
+	margin-top: 2rem;
+	font-weight: 300;
+}
+
+.p4 p{
+	text-align: center;
+	margin-top: 0.2rem;
+	font-weight: 300;
+}
+
+
+.oge{
+	margin-top: 2rem;
+	max-width: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 3rem;
+}
+ 
+.p5 h1{
+	margin-top: 0rem;
+	text-align: center;
+	font-size: 2.4rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.p5 h6{
+	text-align: center;
+	font-size: 1.1rem;
+	margin-top: 2rem;
+	font-weight: 300;
+}
+
+.p5 p{
+	margin-top: 4rem;
+	margin-bottom: 75rem;
+	font-weight: 300;
+}
+
+
+.q2{
+  float: left;
+  width: 52%;
+  padding: 5px;
+  padding-right: 2rem;
+
+}
+	
+/*End Personality*/
+
+/*Start Project Idea*/
+.w1 h1{
+	text-align: center;
+	font-size: 2.4rem;
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+
+.w1 h6{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 300;
+}
+
+.w1 p{
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-bottom: 2rem;
+	font-weight: 300;
+}
+
+.w4 p{
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-bottom: 10rem;+
+	font-weight: 300;
+}
+/*End Project Idea*/
+
+
+/*Start footer*/
+.wer{
+	text-align: center;
+	background-color: #28092F;
+	padding: 2rem;
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+
+/*End footer*/
+
