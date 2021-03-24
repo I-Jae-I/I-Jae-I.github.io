@@ -16,7 +16,7 @@ body{
 	height: 100%;
 	background: url("images/re.jpg") no-repeat center fixed;
 	background-size: cover;
-	display: flex;
+	background-repeat: repeat-y;
 }
 
 a{
